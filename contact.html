@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>株式会社TECH</title>
+</head>
+
+<body>
+  <!-- header start -->
+  <header class="header">
+    <h1 class="header__title">
+      <a href="index.html"><img src="./img/logo.png" alt="株式会社TECH"></a>
+    </h1>
+    <nav class="header__navigation">
+      <ul class="header__navigation__list">
+        <li class="header__navigation__item"><a href="index.html">ホーム</a></li>
+        <li class="header__navigation__item"><a href="service.html">事業内容</a></li>
+        <li class="header__navigation__item"><a href="news.html">ニュース</a></li>
+        <li class="header__navigation__item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header__navigation__item"><a href="company.html">会社概要</a></li>
+        <li class="header__navigation__item"><a href="recruit.html">採用情報</a></li>
+        <li class="header__navigation__item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <nav class="header__navigation__res" id="nav">
+      <ul class="header__navigation__list__res">
+        <li class="header__navigation__item__res"><a href="index.html">ホーム</a></li>
+        <li class="header__navigation__item__res"><a href="service.html">事業内容</a></li>
+        <li class="header__navigation__item__res"><a href="news.html">ニュース</a></li>
+        <li class="header__navigation__item__res"><a href="blog.html">社員ブログ</a></li>
+        <li class="header__navigation__item__res"><a href="company.html">会社概要</a></li>
+        <li class="header__navigation__item__res"><a href="recruit.html">採用情報</a></li>
+        <li class="header__navigation__item__res"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="menu" id="menu">
+      <span class="menu__top-line"></span>
+      <span class="menu__middle-line"></span>
+      <span class="menu__bottom-line"></span>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- top container start -->
+  <h1 class="top__title">お問い合わせ</h1>
+  <!-- top container end -->
+
+  <!-- main container start -->
+  <main class="contact">
+    <form action="index.html" method="post" class="contact__form">
+      <label>
+        <span class="contact__form__title">会社名</span><input type="text" name="company-name" class="contact-item">
+      </label>
+      <label>
+        <span class="contact__form__title">お名前</span><span class="contact__form__title--required">*</span><input type="text" name="your-name" class="contact-item" required>
+      </label>
+      <label>
+        <span class="contact__form__title">メールアドレス</span><span class="contact__form__title--required">*</span><input type="email" name="your-mail-address" class="contact-item" required>
+      </label>
+      <label>
+        <span class="contact__form__title">お問い合わせ内容</span><span class="contact__form__title--required">*</span><textarea name="contents" cols="30" rows="10" class="contact-item" required></textarea>
+      </label>
+      <input type="button" name="submit" value="お申し込み" class="contact-button">
+    </form>
+  </main>
+  <!-- main container end -->
+
+  <!-- fotter start -->
+  <fotter class="fotter">
+    <small class="fotter__copy">&copy; 2020 TECH inc.</small>
+    <div class="footer__navigation">
+      <ul class="fotter__navigation__list">
+        <li class="footer__navigation__item"><a href="index.html">ホーム</a></li>
+        <li class="footer__navigation__item"><a href="service.html">事業内容</a></li>
+        <li class="footer__navigation__item"><a href="news.html">ニュース</a></li>
+        <li class="header__navigation__item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header__navigation__item"><a href="company.html">会社概要</a></li>
+        <li class="header__navigation__item"><a href="recruit.html">採用情報</a></li>
+        <li class="header__navigation__item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </fotter>
+  <!-- fotter end -->
+  <script src="js/main.js"></script>
+</body>
+</html>
